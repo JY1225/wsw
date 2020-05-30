@@ -780,8 +780,7 @@ public class SmartWeighingMainFrame implements ActionListener
 		Record record = new Record();
 		Material material = new Material();	
 		//ÎïÁÏ´úÂë
-		material.setMaterialCode(Integer.valueOf(materialCodeTextField.getText().toString()));
-		
+		material.setMaterialCode(Integer.valueOf(materialCodeTextField.getText().toString()));		
 		return record;
 		
 	}
